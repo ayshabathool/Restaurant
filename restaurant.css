@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Cardo:ital,wght@0,400;0,700;1,400&family=Cormorant+Infant:wght@300&family=Mallanna&family=Montserrat:wght@300;400&family=Nunito+Sans:wght@300&family=Tajawal&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid h1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.video {
+    width: 100%;
+
+}
+
+.about-us {
+    margin-top: -10px;
+    position: relative;
+    color: silver;
+    background: url('./images/food.png');
+    background-size: cover;
+    height: 400px;
+
+}
+
+.about-us-content {
+   
+    position: relative;
+    float: right;
+    align-items: center;
+    text-align: center;
+    top: 140px;
+    right: 40px;
+}
+
+
+.about-us-content h2 {
+    text-transform: uppercase;
+    color: darkorange;
+    font-size: xx-large;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+
+}
+
+.about-us-content h4 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: xx-large
+}
+
+.about-us-content p {
+
+    font-family: 'Cardo', serif;
+    animation: 5s anim-lineUp ease-out infinite;
+    font-size: medium;
+}
+
+@keyframes anim-lineUp {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+    }
+
+    20% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+
+.menu-heading {
+    text-align: center;
+}
+
+.menu-heading h3{
+    color: crimson;
+    font-family:Brush Script MT, Brush Script Std, cursive;
+}
+
+.menu-heading h2{
+    color: darkorange;
+    font-size: xx-large;
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+}
+
+.carousel-caption h2{
+text-transform: uppercase;
+font-weight: bold;
+font-family: 'Times New Roman', Times, serif;
+color: darkorange;
+}
+
+.carousel-caption h4{
+    color: white;
+    font-weight: 700;
+    font-family: 'Jacques Francois Shadow', cursive;
+}
+
+
+.video-fluid{
+    width: 100%;
+}
+
+.col-md-6{
+    text-align: center;
+}
+
+.col-md-6 img{
+    width: 80%;
+}
+
+
+.col-md-6 h1{
+    color: darkorange;
+    font-family:'Times New Roman', Times, serif; ;
+}
+
+.col-md-6 h3{
+    color: crimson;
+font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.blend{
+    display: flex;
+    position: relative;
+
+}
+
+.blend img{
+    width: 100%;
+}
+
+
+.contact h3{
+    color: darkorange;
+margin-bottom: 40px;
+}
+
+.contact .info-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+
+.contact .info-box span{
+    font-weight:400;
+    margin-left: 12px;
+}
+
+
+.open h3{
+    color:crimson;
+margin-bottom: 40px;
+}
+
+.open.opening-day{
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+
+
+.icon-div{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    color:crimson;
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.icon-div :hover {
+background-color: grey;
+}
+
+.icon :hover{
+    background-color:grey;
+}
